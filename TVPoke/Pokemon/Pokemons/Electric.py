@@ -1,100 +1,113 @@
-from TVPoke.BaseClasses.PokeTypes import Rock
+from TVPoke.BaseClasses.PokeTypes import Electric
 from TVPoke.BaseClasses.Move import Move
 from random import randint
 
-class Geodude(Rock):
+
+class Electrike(Electric):
     def __init__(self):
-        moves = [
+        super().__init__("Electrike", 78, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
             Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ]
-        super().__init__("Geodude", 57, moves, "./TVPoke/Pokemon/imgs/Geodude.png")
+        ], "./TVPoke/Pokemon/imgs/Electrike.png")
 
-class Graveler(Rock):
+
+class Manectric(Electric):
     def __init__(self):
-        moves = [
+        super().__init__("Manectric", 79, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
             Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ]
-        super().__init__("Graveler", 58, moves, "./TVPoke/Pokemon/imgs/Graveler.png")
+        ], "./TVPoke/Pokemon/imgs/Manectric.png")
 
-class Golem(Rock):
+
+class Plusle(Electric):
     def __init__(self):
-        moves = [
+        super().__init__("Plusle", 80, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
             Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ]
-        super().__init__("Golem", 59, moves, "./TVPoke/Pokemon/imgs/Golem.png")
+        ], "./TVPoke/Pokemon/imgs/Plusle.png")
 
-class Nosepass(Rock):
+
+class Minun(Electric):
     def __init__(self):
-        moves = [
+        super().__init__("Minun", 81, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
             Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ]
-        super().__init__("Nosepass", 60, moves, "./TVPoke/Pokemon/imgs/Nosepass.png")
+        ], "./TVPoke/Pokemon/imgs/Minun.png")
 
 
-
-class Lunatone(Rock):
+class Magnemite(Electric):
     def __init__(self):
-        super().__init__("Lunatone", 125, [
+        super().__init__("Magnemite", 82, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Lunatone.png")
+        ], "./TVPoke/Pokemon/imgs/Magnemite.png")
 
-class Solrock(Rock):
+
+class Magneton(Electric):
     def __init__(self):
-        super().__init__("Solrock", 126, [
+        super().__init__("Magneton", 83, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Solrock.png")
+        ], "./TVPoke/Pokemon/imgs/Magneton.png")
 
-class Lileep(Rock):
+
+class Voltorb(Electric):
     def __init__(self):
-        super().__init__("Lileep", 133, [
+        super().__init__("Voltorb", 84, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Lileep.png")
+        ], "./TVPoke/Pokemon/imgs/Voltorb.png")
 
-class Cradily(Rock):
+
+class Electrode(Electric):
     def __init__(self):
-        super().__init__("Cradily", 134, [
+        super().__init__("Electrode", 85, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Cradily.png")
+        ], "./TVPoke/Pokemon/imgs/Electrode.png")
 
-class Anorith(Rock):
+
+class Pichu(Electric):
     def __init__(self):
-        super().__init__("Anorith", 135, [
+        super().__init__("Pichu", 155, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Anorith.png")
+        ], "./TVPoke/Pokemon/imgs/Pichu.png")
 
-class Regirock(Rock):
+
+class Pikachu(Electric):
     def __init__(self):
-        super().__init__("Regirock", 193, [
+        super().__init__("Pikachu", 156, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Psywave", "PSYCHIC", randint(30, 150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Regirock.png")
+        ], "./TVPoke/Pokemon/imgs/Pikachu.png")
 
+
+class Raichu(Electric):
+    def __init__(self):
+        super().__init__("Raichu", 157, [
+            Move("Mega Kick", "NORMAL", 120),
+            Move("Thunder", "ELECTRIC", 120),
+            Move("Psywave", "PSYCHIC", randint(30, 150)),
+            Move("Dream Eater", "PSYCHIC", 100)
+        ], "./TVPoke/Pokemon/imgs/Raichu.png")

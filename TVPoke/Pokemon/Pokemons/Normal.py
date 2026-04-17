@@ -71,3 +71,38 @@ class Kecleon(Normal):
 class Azurill(Normal):
     def __init__(self):
         super().__init__("Azurill", 54, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Azurill.png")
+
+
+class Doduo(Normal):
+    def __init__(self):
+        super().__init__("Doduo", 92, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Doduo.png")
+
+
+class Dodrio(Normal):
+    def __init__(self):
+        super().__init__("Dodrio", 93, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Dodrio.png")
+
+
+class Swablu(Normal):
+    def __init__(self):
+        super().__init__("Swablu", 121, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Swablu.png")
+
+
+class Zangoose(Normal):
+    def __init__(self):
+        super().__init__("Zangoose", 123, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Zangoose.png")
+
+
+class Igglybuff(Normal):
+    def __init__(self):
+        super().__init__("Igglybuff", 137, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Igglybuff.png")
+
+
+class Jigglypuff(Normal):
+    def __init__(self):
+        super().__init__("Jigglypuff", 138, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Jigglypuff.png")
+
+
+class Wigglytuff(Normal):
+    def __init__(self):
+        super().__init__("Wigglytuff", 139, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Wigglytuff.png")

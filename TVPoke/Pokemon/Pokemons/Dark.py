@@ -2,7 +2,6 @@ from TVPoke.BaseClasses.PokeTypes import Dark
 from TVPoke.BaseClasses.Move import Move
 from random import randint
 
-
 class Poochyena(Dark):
     def __init__(self):
         super().__init__("Poochyena", 10, [
@@ -11,7 +10,6 @@ class Poochyena(Dark):
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Poochyena.png")
-
 
 class Mightyena(Dark):
     def __init__(self):
@@ -22,26 +20,14 @@ class Mightyena(Dark):
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Mightyena.png")
 
-
-class Nuzleaf(Dark):
+class Absol(Dark):
     def __init__(self):
-        super().__init__("Nuzleaf", 23, [
+        super().__init__("Absol", 152, [
             Move("Mega Kick", "NORMAL", 120),
             Move("Thunder", "ELECTRIC", 120),
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Nuzleaf.png")
-
-
-class Shiftry(Dark):
-    def __init__(self):
-        super().__init__("Shiftry", 24, [
-            Move("Mega Kick", "NORMAL", 120),
-            Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
-            Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Shiftry.png")
-
+        ], "./TVPoke/Pokemon/imgs/Absol.png")
 
 class Sableye(Dark):
     def __init__(self):
@@ -52,22 +38,3 @@ class Sableye(Dark):
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Sableye.png")
 
-
-class Cacturne(Dark):
-    def __init__(self):
-        super().__init__("Cacturne", 120, [
-            Move("Mega Kick", "NORMAL", 120),
-            Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
-            Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Cacturne.png")
-
-
-class Absol(Dark):
-    def __init__(self):
-        super().__init__("Absol", 152, [
-            Move("Mega Kick", "NORMAL", 120),
-            Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
-            Move("Dream Eater", "PSYCHIC", 100)
-        ], "./TVPoke/Pokemon/imgs/Absol.png")

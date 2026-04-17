@@ -2,7 +2,6 @@ from TVPoke.BaseClasses.PokeTypes import Dragon
 from TVPoke.BaseClasses.Move import Move
 from random import randint
 
-
 class Bagon(Dragon):
     def __init__(self):
         super().__init__("Bagon", 187, [
@@ -11,7 +10,6 @@ class Bagon(Dragon):
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Bagon.png")
-
 
 class Shelgon(Dragon):
     def __init__(self):
@@ -22,7 +20,6 @@ class Shelgon(Dragon):
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Shelgon.png")
 
-
 class Salamence(Dragon):
     def __init__(self):
         super().__init__("Salamence", 189, [
@@ -31,7 +28,6 @@ class Salamence(Dragon):
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Salamence.png")
-
 
 class Latias(Dragon):
     def __init__(self):
@@ -42,7 +38,6 @@ class Latias(Dragon):
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Latias.png")
 
-
 class Latios(Dragon):
     def __init__(self):
         super().__init__("Latios", 197, [
@@ -52,7 +47,6 @@ class Latios(Dragon):
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Latios.png")
 
-
 class Rayquaza(Dragon):
     def __init__(self):
         super().__init__("Rayquaza", 200, [
@@ -61,3 +55,15 @@ class Rayquaza(Dragon):
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Rayquaza.png")
+
+
+
+class Altaria(Dragon):
+    def __init__(self):
+        super().__init__("Altaria", 122, [
+            Move("Mega Kick", "NORMAL", 120),
+            Move("Thunder", "ELECTRIC", 120),
+            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Dream Eater", "PSYCHIC", 100)
+        ], "./TVPoke/Pokemon/imgs/Altaria.png")
+
