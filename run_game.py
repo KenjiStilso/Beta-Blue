@@ -8,6 +8,7 @@ if tvpoke_root not in sys.path:
 
 from PyUI.Window import Window
 from PyUI.Examples.StartScreen import StartScreen
+from PyUI.Examples.VillageScreen import VillageScreen
 import pygame
 
 
@@ -19,6 +20,10 @@ def main():
 
     while True:
         window.checkForInput(screen)
+
+        if hasattr(screen, "next_screen") and screen.next_screen:
+            screen = screen.next_screen
+
         window.update(screen)
         clock.tick(60)
 
