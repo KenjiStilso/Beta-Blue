@@ -71,3 +71,30 @@ class Seviper(Poison):
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Seviper.png")
+class Zubat(Poison):
+    def __init__(self):
+        super().__init__("Zubat", 63, [
+            Move("Mega Kick", "NORMAL", 120),
+            Move("Thunder", "ELECTRIC", 120),
+            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Dream Eater", "PSYCHIC", 100)
+        ], "./TVPoke/Pokemon/imgs/Zubat.png")
+
+class Golbat(Poison):
+    def __init__(self):
+        super().__init__("Golbat", 64, [
+            Move("Mega Kick", "NORMAL", 120),
+            Move("Thunder", "ELECTRIC", 120),
+            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Dream Eater", "PSYCHIC", 100)
+        ], "./TVPoke/Pokemon/imgs/Golbat.png")
+
+class Crobat(Poison):
+    def __init__(self):
+        super().__init__("Crobat", 65, [
+            Move("Mega Kick", "NORMAL", 120),
+            Move("Thunder", "ELECTRIC", 120),
+            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Dream Eater", "PSYCHIC", 100)
+        ], "./TVPoke/Pokemon/imgs/Crobat.png")
+

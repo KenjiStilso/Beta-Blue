@@ -2,7 +2,6 @@ from TVPoke.BaseClasses.PokeTypes import Steel
 from TVPoke.BaseClasses.Move import Move
 from random import randint
 
-
 class Mawile(Steel):
     def __init__(self):
         super().__init__("Mawile", 69, [
@@ -11,7 +10,6 @@ class Mawile(Steel):
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Mawile.png")
-
 
 class Aron(Steel):
     def __init__(self):
@@ -22,7 +20,6 @@ class Aron(Steel):
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Aron.png")
 
-
 class Lairon(Steel):
     def __init__(self):
         super().__init__("Lairon", 71, [
@@ -31,7 +28,6 @@ class Lairon(Steel):
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Lairon.png")
-
 
 class Aggron(Steel):
     def __init__(self):
@@ -42,7 +38,6 @@ class Aggron(Steel):
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Aggron.png")
 
-
 class Beldum(Steel):
     def __init__(self):
         super().__init__("Beldum", 190, [
@@ -51,7 +46,6 @@ class Beldum(Steel):
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Beldum.png")
-
 
 class Metang(Steel):
     def __init__(self):
@@ -62,7 +56,6 @@ class Metang(Steel):
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Metang.png")
 
-
 class Metagross(Steel):
     def __init__(self):
         super().__init__("Metagross", 192, [
@@ -72,7 +65,6 @@ class Metagross(Steel):
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Metagross.png")
 
-
 class Registeel(Steel):
     def __init__(self):
         super().__init__("Registeel", 195, [
@@ -81,3 +73,24 @@ class Registeel(Steel):
             Move("Psywave", "PSYCHIC", randint(30,150)),
             Move("Dream Eater", "PSYCHIC", 100)
         ], "./TVPoke/Pokemon/imgs/Registeel.png")
+
+
+
+class Skarmory(Steel):
+    def __init__(self):
+        super().__init__("Skarmory", 115, [
+            Move("Mega Kick", "NORMAL", 120),
+            Move("Thunder", "ELECTRIC", 120),
+            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Dream Eater", "PSYCHIC", 100)
+        ], "./TVPoke/Pokemon/imgs/Skarmory.png")
+
+class Jirachi(Steel):
+    def __init__(self):
+        super().__init__("Jirachi", 201, [
+            Move("Mega Kick", "NORMAL", 120),
+            Move("Thunder", "ELECTRIC", 120),
+            Move("Psywave", "PSYCHIC", randint(30,150)),
+            Move("Dream Eater", "PSYCHIC", 100)
+        ], "./TVPoke/Pokemon/imgs/Jirachi.png")
+

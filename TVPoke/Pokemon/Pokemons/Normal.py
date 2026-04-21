@@ -1,31 +1,29 @@
 from TVPoke.BaseClasses.PokeTypes import Normal
 from TVPoke.BaseClasses.Move import Move
-from random import randint
-
 
 class Zigzagoon(Normal):
     def __init__(self):
-        super().__init__("Zigzagoon", 12, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Zigzagoon.png")
+        super().__init__("Zigzagoon", 38, [Move("Tackle","NORMAL",40),Move("Growl","NORMAL",0),Move("Tail Whip","NORMAL",0),Move("Headbutt","NORMAL",70)],"./TVPoke/Pokemon/imgs/Zigzagoon.png")
 
 
 class Linoone(Normal):
     def __init__(self):
-        super().__init__("Linoone", 13, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Linoone.png")
+        super().__init__("Linoone", 78, [Move("Tackle","NORMAL",40),Move("Growl","NORMAL",0),Move("Tail Whip","NORMAL",0),Move("Headbutt","NORMAL",70)],"./TVPoke/Pokemon/imgs/Linoone.png")
 
 
 class Slakoth(Normal):
     def __init__(self):
-        super().__init__("Slakoth", 36, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Slakoth.png")
+        super().__init__("Slakoth", 60, [Move("Scratch","NORMAL",40),Move("Yawn","NORMAL",0),Move("Encore","NORMAL",0),Move("Slack Off","NORMAL",0)],"./TVPoke/Pokemon/imgs/Slakoth.png")
 
 
 class Vigoroth(Normal):
     def __init__(self):
-        super().__init__("Vigoroth", 37, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Vigoroth.png")
+        super().__init__("Vigoroth", 80, [Move("Scratch","NORMAL",40),Move("Focus Energy","NORMAL",0),Move("Encore","NORMAL",0),Move("Uproar","NORMAL",90)],"./TVPoke/Pokemon/imgs/Vigoroth.png")
 
 
 class Slaking(Normal):
     def __init__(self):
-        super().__init__("Slaking", 38, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Slaking.png")
+        super().__init__("Slaking", 150, [Move("Scratch","NORMAL",40),Move("Yawn","NORMAL",0),Move("Encore","NORMAL",0),Move("Slack Off","NORMAL",0)],"./TVPoke/Pokemon/imgs/Slaking.png")
 
 
 class Whismur(Normal):
@@ -71,3 +69,38 @@ class Kecleon(Normal):
 class Azurill(Normal):
     def __init__(self):
         super().__init__("Azurill", 54, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Azurill.png")
+
+
+class Doduo(Normal):
+    def __init__(self):
+        super().__init__("Doduo", 92, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Doduo.png")
+
+
+class Dodrio(Normal):
+    def __init__(self):
+        super().__init__("Dodrio", 93, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Dodrio.png")
+
+
+class Swablu(Normal):
+    def __init__(self):
+        super().__init__("Swablu", 121, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Swablu.png")
+
+
+class Zangoose(Normal):
+    def __init__(self):
+        super().__init__("Zangoose", 123, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Zangoose.png")
+
+
+class Igglybuff(Normal):
+    def __init__(self):
+        super().__init__("Igglybuff", 137, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Igglybuff.png")
+
+
+class Jigglypuff(Normal):
+    def __init__(self):
+        super().__init__("Jigglypuff", 138, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Jigglypuff.png")
+
+
+class Wigglytuff(Normal):
+    def __init__(self):
+        super().__init__("Wigglytuff", 139, [Move("Mega Kick","NORMAL",120),Move("Thunder","ELECTRIC",120),Move("Psywave","PSYCHIC",randint(30,150)),Move("Dream Eater","PSYCHIC",100)],"./TVPoke/Pokemon/imgs/Wigglytuff.png")
