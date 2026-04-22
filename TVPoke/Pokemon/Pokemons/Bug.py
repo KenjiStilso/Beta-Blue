@@ -60,10 +60,10 @@ class Surskit(Bug):
 class Masquerain(Bug):
     def __init__(self):
         moves = [
-            Move("Bubble", "WATER", 40),
+            Move("Gust", "FLYING", 40),
             Move("Quick Attack", "NORMAL", 40),
-            Move("Sweet Scent", "NORMAL", 0),
-            Move("Water Sport", "WATER", 0)
+            Move("Stun Spore", "GRASS", 0),
+            Move("Air Slash", "FLYING", 75)
         ]
         super().__init__("Masquerain", 70, moves, "./TVPoke/Pokemon/imgs/Masquerain.png")
 
@@ -82,8 +82,8 @@ class Ninjask(Bug):
         moves = [
             Move("Scratch", "NORMAL", 40),
             Move("Harden", "NORMAL", 0),
-            Move("Leech Life", "BUG", 80),
-            Move("Sand Attack", "GROUND", 0)
+            Move("X-Scissor", "BUG", 95),
+            Move("Swords Dance", "NORMAL", 0)
         ]
         super().__init__("Ninjask", 61, moves, "./TVPoke/Pokemon/imgs/Ninjask.png")
 
@@ -92,8 +92,8 @@ class Shedinja(Bug):
         moves = [
             Move("Scratch", "NORMAL", 40),
             Move("Harden", "NORMAL", 0),
-            Move("Leech Life", "BUG", 80),
-            Move("Sand Attack", "GROUND", 0)
+            Move("Shadow Claw", "GHOST", 70),
+            Move("X-Scissor", "BUG", 95)
         ]
         super().__init__("Shedinja", 1, moves, "./TVPoke/Pokemon/imgs/Shedinja.png")
 

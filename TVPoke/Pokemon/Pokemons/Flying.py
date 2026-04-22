@@ -4,20 +4,20 @@ from random import randint
 
 class Taillow(Flying):
     def __init__(self):
-        super().__init__("Taillow", 25, [
-            Move("Mega Kick", "NORMAL", 120),
-            Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
-            Move("Dream Eater", "PSYCHIC", 100)
+        super().__init__("Taillow", 40, [
+            Move("Peck", "FLYING", 35),
+            Move("Growl", "NORMAL", 0),
+            Move("Focus Energy", "NORMAL", 0),
+            Move("Wing Attack", "FLYING", 60)
         ], "./TVPoke/Pokemon/imgs/Taillow.png")
 
 class Swellow(Flying):
     def __init__(self):
-        super().__init__("Swellow", 26, [
-            Move("Mega Kick", "NORMAL", 120),
-            Move("Thunder", "ELECTRIC", 120),
-            Move("Psywave", "PSYCHIC", randint(30,150)),
-            Move("Dream Eater", "PSYCHIC", 100)
+        super().__init__("Swellow", 60, [
+            Move("Peck", "FLYING", 35),
+            Move("Growl", "NORMAL", 0),
+            Move("Focus Energy", "NORMAL", 0),
+            Move("Aerial Ace", "FLYING", 60)
         ], "./TVPoke/Pokemon/imgs/Swellow.png")
 
 

@@ -16,8 +16,8 @@ class Marshtomp(Water):
         moves = [
             Move("Tackle", "NORMAL", 40),
             Move("Water Gun", "WATER", 40),
-            Move("Mud Slap", "GROUND", 20),
-            Move("Foresight", "NORMAL", 0)
+            Move("Mud Shot", "GROUND", 55),
+            Move("Aqua Ring", "WATER", 0)
         ]
         super().__init__("Marshtomp", 70, moves, "./TVPoke/Pokemon/imgs/Marshtomp.png")
 
@@ -26,8 +26,8 @@ class Swampert(Water):
         moves = [
             Move("Tackle", "NORMAL", 40),
             Move("Water Gun", "WATER", 40),
-            Move("Mud Slap", "GROUND", 20),
-            Move("Foresight", "NORMAL", 0)
+            Move("Earthquake", "GROUND", 100),
+            Move("Hydro Pump", "WATER", 110)
         ]
         super().__init__("Swampert", 100, moves, "./TVPoke/Pokemon/imgs/Swampert.png")
 
@@ -46,9 +46,9 @@ class Pelipper(Water):
     def __init__(self):
         super().__init__("Pelipper", 60, [
             Move("Water Gun", "WATER", 40),
-            Move("Supersonic", "NORMAL", 0),
+            Move("Protect", "NORMAL", 0),
             Move("Wing Attack", "FLYING", 60),
-            Move("Mist", "ICE", 0)
+            Move("Roost", "FLYING", 0)
         ], "./TVPoke/Pokemon/imgs/Pelipper.png")
 
 class Goldeen(Water):
@@ -63,10 +63,10 @@ class Goldeen(Water):
 class Seaking(Water):
     def __init__(self):
         super().__init__("Seaking", 80, [
-            Move("Peck", "FLYING", 35),
+            Move("Horn Attack", "NORMAL", 65),
             Move("Tail Whip", "NORMAL", 0),
-            Move("Water Sport", "WATER", 0),
-            Move("Supersonic", "NORMAL", 0)
+            Move("Water Pulse", "WATER", 60),
+            Move("Drill Run", "GROUND", 95)
         ], "./TVPoke/Pokemon/imgs/Seaking.png")
 
 class Magikarp(Water):
@@ -98,9 +98,9 @@ class Azumarill(Water):
     def __init__(self):
         super().__init__("Azumarill", 100, [
             Move("Tackle", "NORMAL", 40),
-            Move("Defense Curl", "NORMAL", 0),
-            Move("Tail Whip", "NORMAL", 0),
-            Move("Water Gun", "WATER", 40)
+            Move("Belly Drum", "NORMAL", 0),
+            Move("Waterfall", "WATER", 80),
+            Move("Play Rough", "FAIRY", 90)
         ], "./TVPoke/Pokemon/imgs/Azumarill.png")
 
 class Tentacool(Water):
@@ -116,9 +116,9 @@ class Tentacruel(Water):
     def __init__(self):
         super().__init__("Tentacruel", 80, [
             Move("Poison Sting", "POISON", 15),
-            Move("Supersonic", "NORMAL", 0),
+            Move("Toxic Spikes", "POISON", 0),
             Move("Constrict", "NORMAL", 10),
-            Move("Acid", "POISON", 40)
+            Move("Hydro Pump", "WATER", 110)
         ], "./TVPoke/Pokemon/imgs/Tentacruel.png")
 
 class Carvanha(Water):
@@ -135,8 +135,8 @@ class Sharpedo(Water):
         super().__init__("Sharpedo", 70, [
             Move("Leer", "NORMAL", 0),
             Move("Bite", "DARK", 60),
-            Move("Rage", "NORMAL", 20),
-            Move("Focus Energy", "NORMAL", 0)
+            Move("Aqua Jet", "WATER", 65),
+            Move("Crunch", "DARK", 80)
         ], "./TVPoke/Pokemon/imgs/Sharpedo.png")
 
 class Wailmer(Water):
@@ -151,10 +151,10 @@ class Wailmer(Water):
 class Wailord(Water):
     def __init__(self):
         super().__init__("Wailord", 170, [
-            Move("Splash", "NORMAL", 0),
-            Move("Growl", "NORMAL", 0),
             Move("Water Gun", "WATER", 40),
-            Move("Rollout", "ROCK", 30)
+            Move("Mist", "ICE", 0),
+            Move("Rest", "PSYCHIC", 0),
+            Move("Hydro Pump", "WATER", 110)
         ], "./TVPoke/Pokemon/imgs/Wailord.png")
 
 class Barboach(Water):
@@ -169,10 +169,10 @@ class Barboach(Water):
 class Whiscash(Water):
     def __init__(self):
         super().__init__("Whiscash", 110, [
-            Move("Mud Slap", "GROUND", 20),
+            Move("Mud Shot", "GROUND", 55),
             Move("Water Sport", "WATER", 0),
-            Move("Water Gun", "WATER", 40),
-            Move("Magnitude", "GROUND", 0)
+            Move("Water Pulse", "WATER", 60),
+            Move("Earthquake", "GROUND", 100)
         ], "./TVPoke/Pokemon/imgs/Whiscash.png")
 
 class Corphish(Water):
@@ -188,9 +188,9 @@ class Crawdaunt(Water):
     def __init__(self):
         super().__init__("Crawdaunt", 63, [
             Move("Bubble", "WATER", 40),
-            Move("Harden", "NORMAL", 0),
-            Move("Vice Grip", "NORMAL", 55),
-            Move("Leer", "NORMAL", 0)
+            Move("Taunt", "DARK", 0),
+            Move("Crabhammer", "WATER", 100),
+            Move("Crunch", "DARK", 80)
         ], "./TVPoke/Pokemon/imgs/Crawdaunt.png")
 
 class Feebas(Water):
@@ -221,10 +221,10 @@ class Staryu(Water):
 class Starmie(Water):
     def __init__(self):
         super().__init__("Starmie", 60, [
-            Move("Tackle", "NORMAL", 40),
-            Move("Harden", "NORMAL", 0),
-            Move("Water Gun", "WATER", 40),
-            Move("Rapid Spin", "NORMAL", 50)
+            Move("Swift", "NORMAL", 60),
+            Move("Recover", "NORMAL", 0),
+            Move("Water Pulse", "WATER", 60),
+            Move("Psychic", "PSYCHIC", 90)
         ], "./TVPoke/Pokemon/imgs/Starmie.png")
 
 class Psyduck(Water):
@@ -240,8 +240,8 @@ class Golduck(Water):
     def __init__(self):
         super().__init__("Golduck", 80, [
             Move("Scratch", "NORMAL", 40),
-            Move("Tail Whip", "NORMAL", 0),
-            Move("Water Sport", "WATER", 0),
+            Move("Confusion", "PSYCHIC", 50),
+            Move("Water Pulse", "WATER", 60),
             Move("Disable", "NORMAL", 0)
         ], "./TVPoke/Pokemon/imgs/Golduck.png")
 
@@ -314,16 +314,16 @@ class Seadra(Water):
             Move("Bubble", "WATER", 40),
             Move("SmokeScreen", "NORMAL", 0),
             Move("Leer", "NORMAL", 0),
-            Move("Water Gun", "WATER", 40)
+            Move("Twister", "DRAGON", 40)
         ], "./TVPoke/Pokemon/imgs/Seadra.png")
 
 class Kingdra(Water):
     def __init__(self):
         super().__init__("Kingdra", 75, [
-            Move("Bubble", "WATER", 40),
-            Move("SmokeScreen", "NORMAL", 0),
-            Move("Leer", "NORMAL", 0),
-            Move("Water Gun", "WATER", 40)
+            Move("Water Gun", "WATER", 40),
+            Move("Smokescreen", "NORMAL", 0),
+            Move("Dragon Breath", "DRAGON", 60),
+            Move("Hydro Pump", "WATER", 110)
         ], "./TVPoke/Pokemon/imgs/Kingdra.png")
 
 class Kyogre(Water):
@@ -347,9 +347,8 @@ class Chinchou(Water):
 class Lanturn(Water):
     def __init__(self):
         super().__init__("Lanturn", 125, [
-            Move("Bubble", "WATER", 40),
+            Move("Water Gun", "WATER", 40),
             Move("Thunder Wave", "ELECTRIC", 0),
             Move("Supersonic", "NORMAL", 0),
-            Move("Flail", "NORMAL", 0)
+            Move("Discharge", "ELECTRIC", 80)
         ], "./TVPoke/Pokemon/imgs/Lanturn.png")
-
